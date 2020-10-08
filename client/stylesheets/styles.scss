@@ -15,33 +15,7 @@
 .news-container {
   margin: 50px 0px;
 }
-// .item-wrapper {
-//   display: flex;
-//   box-shadow: 2px 2px $black;
-//   height: 250px;
-//   width: 18%;
-//   min-width: 150px;
-//   border: 1px solid $black;
-//   margin: 10px;
-//   font-size: 12px;
-//   margin-top: 5px;
-//   box-shadow: 2px 2px $black;
-// }
-// .item-wrapper img {
-//   height: 150px;
-//   width: 100%;
-//   display: flex;
-//   border: 1px solid $black;
-// }
-// .item-wrapper p,
-// strong {
-//   margin: 0;
-//   font-size: 11px;
-//   height: auto;
-//   width: 100%;
-//   display: flex;
-//   flex-direction: column;
-// }
+
 .weather-container {
   display: flex;
   width: fit-content;
@@ -260,14 +234,14 @@
 }
 #loginButton {
   margin: 5px;
-  width: 50px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
   margin-bottom: 10px;
   font-size: 13px;
   font-weight: bold;
-  background-color: Transparent;
-  transition: color, background-color;
+  background-color: $white;
   border-radius: 5px;
+  border: 1px solid $black;
 }
 #loginButton:hover {
   color: $white;
@@ -278,6 +252,7 @@
   justify-content: space-between;
   width: 100%;
 }
+
 @media screen and (min-width: 500px) {
   .activities-container {
     .card-deck {
